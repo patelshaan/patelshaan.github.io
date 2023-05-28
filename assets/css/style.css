@@ -1,3 +1,9 @@
 body {
   background-image: url('https://user-images.githubusercontent.com/131218267/241595514-bf5177ac-3a68-4783-a0c0-64d62361664b.png');
 }
+
+.homebuttons {
+  color: #79CD7F;
+  justify-content: center;
+  text-color: #000000;
+}
