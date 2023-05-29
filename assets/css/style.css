@@ -3,7 +3,8 @@ body {
 }
 
 .homebuttons {
-  margin-top: 50%;
+  margin-top: 0;
+  margin-left: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
