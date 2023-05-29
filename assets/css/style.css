@@ -5,6 +5,7 @@ body {
 .homebuttons {
   margin-top: 0;
   margin-left: 50%;
+  margin-bottom: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
