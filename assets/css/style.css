@@ -13,4 +13,7 @@ body {
   document.documentElement.clientWidth; 800
 window.innerWidth; 800
 window.outerWidth; 1200
+  document.documentElement.clientHeight; 533
+window.innerHeight; 533
+window.outerHeight; 900
 }
