@@ -10,4 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  document.documentElement.clientWidth; 800
+window.innerWidth; 800
+window.outerWidth; 1200
 }
