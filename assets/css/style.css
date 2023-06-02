@@ -1,5 +1,6 @@
 body {
   background-image: url('https://user-images.githubusercontent.com/131218267/241595514-bf5177ac-3a68-4783-a0c0-64d62361664b.png');
+  background-repeat: no-repeat;
 }
 
 .homebuttons {
@@ -10,5 +11,4 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-background-repeat: no-repeat;
 }
