@@ -1,8 +1,11 @@
-body {
-  background-image: url('https://user-images.githubusercontent.com/131218267/241595514-bf5177ac-3a68-4783-a0c0-64d62361664b.png');
-  background-repeat: no-repeat;
-}
 
+body { 
+	background-image: url('https://user-images.githubusercontent.com/131218267/241595514-bf5177ac-3a68-4783-a0c0-64d62361664b.png'); 
+	background-repeat: no-repeat;
+	}
+.myBox { 
+	background: url('https://user-images.githubusercontent.com/131218267/241595514-bf5177ac-3a68-4783-a0c0-64d62361664b.png') repeat-x; 
+	}
 .homebuttons {
   margin-top: 50%;
   margin-left: 45%;
