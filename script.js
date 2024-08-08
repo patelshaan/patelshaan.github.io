@@ -35,9 +35,11 @@ products.forEach(product => {
   productDescription.textContent = product.description;
 
   const productPrice = document.createElement('p');
+  productPrice.classList.add('price');
   productPrice.textContent = `$${product.price}`;
 
-  const addToCartButton = document.createElement('button');
+  const addToCartButton = document.createElement('a');
+  addToCartButton.classList.add('btn');
   addToCartButton.textContent = 'Add to Cart';
   addToCartButton.addEventListener('click', () => {
     // Add logic to add the product to the cart
