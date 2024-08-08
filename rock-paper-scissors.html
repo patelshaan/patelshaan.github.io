@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Game Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="#chess">Chess</a></li>
+        <li><a href="#rps">Rock Paper Scissors</a></li>
+        <li><a href="#tictactoe">Tic Tac Toe</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="chess">
+      <h2>Chess</h2>
+      <div id="chess-game"></div>
+    </section>
+
+    <section id="rps">
+      <h2>Rock Paper Scissors</h2>
+      <div id="rps-game">
+        <button class="rps-btn" data-choice="rock">Rock</button>
+        <button class="rps-btn" data-choice="paper">Paper</button>
+        <button class="rps-btn" data-choice="scissors">Scissors</button>
+        <div id="rps-result"></div>
+      </div>
+    </section>
+
+    <section id="tictactoe">
+      <h2>Tic Tac Toe</h2>
+      <div id="tictactoe-game">
+        <div class="tictactoe-cell"></div>
+        <div class="tictactoe-cell"></div>
+        <div class="tictactoe-cell"></div>
+        <div class="tictactoe-cell"></div>
+        <div class="tictactoe-cell"></div>
+        <div class="tictactoe-cell"></div>
+        <div class="tictactoe-cell"></div>
+        <div class="tictactoe-cell"></div>
+        <div class="tictactoe-cell"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Game Hub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
