@@ -1,16 +1,15 @@
 /* style.css */
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
-  color: #333;
 }
 
 header {
-  background-color: #1a73e8;
+  background-color: #333;
   color: #fff;
   padding: 20px;
+  text-align: center;
 }
 
 nav ul {
@@ -22,102 +21,43 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-  transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-  color: #e6e6e6;
+main {
+  padding: 40px;
 }
 
-.hero {
-  padding: 100px 20px;
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.hero p {
-  font-size: 18px;
+section {
   margin-bottom: 40px;
 }
 
-.btn {
-  display: inline-block;
-  background-color: #1a73e8;
-  color: #fff;
-  text-decoration: none;
-  padding: 12px 24px;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: #1c6ed6;
-}
-
-.products {
-  padding: 60px 20px;
-}
-
-.products h2 {
-  font-size: 28px;
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 40px;
-}
-
-.product-item {
-  background-color: #fff;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  text-align: center;
-  border-radius: 8px;
-}
-
-.product-item h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.product-item p {
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-
-.product-item .price {
-  font-size: 18px;
-  font-weight: bold;
-  color: #1a73e8;
-  margin-bottom: 20px;
-}
-
-.product-item .btn {
-  font-size: 14px;
+.rps-btn,
+.tictactoe-cell {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
   padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.tictactoe-cell {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
 }
 
 footer {
-  background-color: #1a73e8;
+  background-color: #333;
   color: #fff;
   padding: 20px;
   text-align: center;
-  font-size: 14px;
 }
