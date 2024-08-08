@@ -3,41 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Online Store</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <title>Game Hub</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
+    <h1>Game Hub</h1>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Cart</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="#chess">Chess</a></li>
+        <li><a href="#rps">Rock Paper Scissors</a></li>
+        <li><a href="#tictactoe">Tic Tac Toe</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
-      <h1>Welcome to Our Online Store</h1>
-      <p>Discover the best products at affordable prices.</p>
-      <a href="#" class="btn">Shop Now</a>
+    <section id="chess">
+      <h2>Chess</h2>
+      <div id="chess-game"></div>
     </section>
 
-    <section class="products">
-      <h2>Featured Products</h2>
-      <div class="product-grid">
-        <!-- Product items will be dynamically added here -->
+    <section id="rps">
+      <h2>Rock Paper Scissors</h2>
+      <div id="rps-game">
+        <button class="rps-btn" data-choice="rock">Rock</button>
+        <button class="rps-btn" data-choice="paper">Paper</button>
+        <button class="rps-btn" data-choice="scissors">Scissors</button>
+        <div id="rps-result"></div>
+      </div>
+    </section>
+
+    <section id="tictactoe">
+      <h2>Tic Tac Toe</h2>
+      <div id="tictactoe-game">
+        <div class="tictactoe-cell"></div>
+        <div class="tictactoe-cell"></div>
+        <div class="tictactoe-cell"></div>
+        <div class="tictactoe-cell"></div>
+        <div class="tictactoe-cell"></div>
+        <div class="tictactoe-cell"></div>
+        <div class="tictactoe-cell"></div>
+        <div class="tictactoe-cell"></div>
+        <div class="tictactoe-cell"></div>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2023 Online Store. All rights reserved.</p>
+    <p>&copy; 2023 Game Hub. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
